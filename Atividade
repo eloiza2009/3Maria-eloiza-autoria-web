@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feminicídio — Estrutura 2</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+
+    <header>
+        <h1>Feminicídio: Alerta e Resistência</h1>
+        <nav>
+            <a href="#">O que é</a>
+            <a href="#">Causas</a>
+            <a href="#">Lei</a>
+            <a href="#">Como Ajudar</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destaque">
+            <h2>Uma mulher é assassinada a cada 7 horas no Brasil</h2>
+            <p>Dados do Mapa da Violência mostram que o Brasil está entre os países com mais casos de feminicídio no mundo. A violência não é destino — é uma escolha que podemos combater.</p>
+        </section>
+
+        <section class="blocos">
+            <article>
+                <h3>📌 O que é</h3>
+                <p>É o assassinato de mulher por razões de gênero. Não é "crime passional": é violência estrutural, baseada na desigualdade e no ódio à condição feminina.</p>
+            </article>
+
+            <article>
+                <h3>⚖️ A Lei</h3>
+                <p>Desde 2015, o feminicídio é crime hediondo no Brasil. Pena de 20 a 30 anos. A lei prevê agravantes como violência doméstica ou abuso de autoridade.</p>
+            </article>
+
+            <article>
+                <h3>🛡️ Sinais de Alerta</h3>
+                <p>Ciúmes excessivo, isolamento da família, humilhação, controle de dinheiro e ameaças. Esses sinais não são normais — são perigo.</p>
+            </article>
+
+            <article>
+                <h3>📢 Como Combater</h3>
+                <p>Denuncie, não julgue, escute e acolha. Compartilhe informação. A mudança começa quando ninguém fica calado diante da violência.</p>
+            </article>
+
+            <article>
+                <h3>📞 Canais de Ajuda</h3>
+                <p><strong>180</strong> — Central da Mulher<br><strong>190</strong> — Polícia<br><strong>Delegacia da Mulher</strong> — em todo o país</p>
+            </article>
+
+            <article>
+                <h3>💜 Frase-chave</h3>
+                <p>"Não é não. Quem ama não mata. A vida das mulheres importa."</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 — Trabalho Acadêmico sobre Feminicídio</p>
+        <p>Informar, conscientizar e proteger</p>
+    </footer>
+
+</body>
+</html>
+
+CSS:
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff5f8;
+    color: #2b2b2b;
+}
+
+header {
+    background: linear-gradient(135deg, #b5179e, #f72585);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 0.8rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.destaque {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(181, 23, 158, 0.12);
+}
+
+.destaque h2 {
+    color: #b5179e;
+    margin-bottom: 1rem;
+}
+
+.blocos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.blocos article {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-top: 4px solid #f72585;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+    transition: transform 0.3s;
+}
+
+.blocos article:hover {
+    transform: translateY(-5px);
+}
+
+.blocos h3 {
+    color: #b5179e;
+    margin-bottom: 0.8rem;
+}
+
+footer {
+    background-color: #b5179e;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
